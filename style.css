@@ -1,0 +1,419 @@
+body {
+    background-color: black;
+}
+
+body {
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-family: "Avenir";
+    font-size: 20px;
+}
+
+a {
+    color: white;
+    /*    padding: 14px 25px;*/
+    font-family: "Avenir";
+    text-decoration: none;
+}
+
+nav {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: underline;
+    grid-column-start: 3;
+    grid-row-start: 3;
+    text-align: center;
+}
+
+a:hover {
+    color: #091C94;
+    cursor: pointer;
+}
+
+.subPageH {
+    font-size: 45px;
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-family: "Avenir";
+    font-size: 25px;
+}
+
+#image {
+    width: 530px;
+    height: auto;
+}
+
+.logoSubPage {
+    width: 200px;
+    height: auto;
+}
+
+button {
+    border-radius: 25px;
+    font-size: 20px;
+    font-family: "Avenir";
+    cursor: pointer;
+    font-weight: bold;
+    height: 50px;
+    width: 200px;
+}
+
+.listen {
+    background-color: #091C94;
+    color: white;
+    border: 2px solid #091C94;
+}
+
+.perform {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+
+.info {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+
+.subPageArt {
+    padding-top: 80px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+}
+
+.whiteBox {
+    width: 100%;
+    height: 725px;
+    background-color: white;
+    grid-column-start: 1;
+    grid-column-end: 7;
+}
+
+
+
+
+input[type=search] {
+    border: 2px solid white;
+    background-color: black;
+    width: 165px;
+    height: 40px;
+
+}
+
+input[type=submit] {
+    color: white;
+    background-color: black;
+    font-size: 19px;
+    font-family: "Avenir";
+    border: none;
+
+}
+
+.icon1 {
+    width: 80px;
+    height: auto;
+    align-self: center;
+}
+
+.icon2 {
+    width: 80px;
+    height: auto;
+}
+
+.icon3 {
+    width: 80px;
+    height: auto;
+    align-self: center;
+}
+
+
+.icons {
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row-start: 4;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-self: center;
+    /*   align-self: center;*/
+    grid-column-gap: 25px;
+    justify-self: end;
+}
+
+.guitar {
+    grid-column-start: 6;
+    grid-row-start: 5;
+    width: 250px;
+    height: auto;
+    margin-left: 120px;
+}
+
+.elem5 {
+    grid-column-start: 3;
+    color: black;
+    align-self: center;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: "Avenir";
+    justify-self: center;
+    text-align: center;
+}
+
+.imageCrowd {
+    width: 600px;
+    height: auto;
+}
+
+.imageMan {
+    width: 600px;
+    height: auto;
+}
+
+
+/*
+
+
+-------- GRIDS --------
+
+
+*/
+
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 50px 300px auto 300px 50px 20px;
+    grid-template-rows: 50px 100px 100px;
+}
+
+.wrapperElem1 {
+    grid-column-start: 2;
+    grid-row-start: 2;
+    place-self: center;
+}
+
+.wrapperElem2 {
+    grid-column-start: 4;
+    grid-row-start: 2;
+    place-self: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 10px 80px 250px 280px 400px 400px auto;
+    grid-template-rows: 50px 60px 220px 200px 120px;
+}
+
+.container2 {
+    grid-column-start: 6;
+    grid-row-start: 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-weight: bold;
+    font-size: 19px;
+    font-family: "Avenir";
+}
+
+.container3 {
+    display: grid;
+    grid-template-columns: 10px 80px auto 80px 20px;
+    grid-template-rows: 25px 185px 525px 104px;
+    ;
+}
+
+.container4 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.elem1 {
+    grid-column-start: 2;
+    grid-row-start: 1;
+}
+
+.elem2 {
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row-start: 4;
+}
+
+.elem3 {
+    grid-column-start: 3;
+    grid-row-start: 5;
+}
+
+.elem4 {
+    grid-column-start: 4;
+    grid-row-start: 5;
+}
+
+
+
+
+#posts {
+    display: grid;
+    /*    justify-items: center;*/
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    /*    justify-content: center;*/
+
+    grid-gap: 50px 5px;
+
+
+
+
+    padding-top: 20px;
+    /*    padding-right: 120px;*/
+    padding-bottom: 10px;
+    padding-left: 120px;
+
+
+
+
+}
+
+
+
+@media all and (max-width: 500px) and (min-width: 300px) {
+
+    .whitebox .elem5 .container4 .icons {
+        display: none;
+    }
+
+    .container3 {
+        display: none;
+    }
+
+    .container {
+        grid-template-columns: 50px 275px 50px;
+        grid-template-rows: 330px 100px 100px 80px 80px;
+    }
+
+    .logo {
+        width: 275px;
+        height: auto;
+    }
+
+    .container2 {
+        display: none;
+    }
+
+    .elemnav1 {
+        display: none;
+    }
+
+    .elemnav2 {
+        display: none;
+    }
+
+    .elemnav3 {
+        display: none;
+    }
+
+    .elem3 {
+        grid-column-start: 2;
+        grid-row-start: 4;
+        align-self: center;
+    }
+
+    .elem4 {
+        grid-column-start: 2;
+        grid-row-start: 5;
+        align-self: center;
+    }
+
+    .listen {
+        width: 275px;
+    }
+
+    .perform {
+        width: 275px;
+    }
+
+    .elem2 {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        align-self: end;
+    }
+
+    .info {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    nav {
+        padding: 0;
+        margin: 0;
+        font-size: 20px;
+        grid-column-start: 2;
+        grid-row-start: 4;
+        align-self: center;
+    }
+
+    #posts {
+        padding: 20px;
+    }
+
+    #image {
+        width: 340px;
+        height: auto;
+    }
+
+    .wrapper {
+        grid-template-columns: 50px auto 50px;
+        grid-template-rows: 20px 80px 80px 80px;
+    }
+
+    .wrapperElem2 {
+        grid-column-start: 2;
+        grid-row-start: 3;
+        align-self: center;
+        justify-self: center;
+
+    }
+
+    .wrapperElem1 {
+        align-self: center;
+        justify-self: center;
+    }
+
+    .subPageArt{
+        padding: 10px;
+    }
+
+}
+
+@media all and (max-height: 800px) and (min-height: 660px) {
+    .container {
+        grid-template-rows: 250px 100px 100px 80px 80px;
+    }
+}
+
+@media all and (max-width: 1200px) and (min-width: 499px) {
+
+     nav {
+        padding: 0;
+        margin: 0;
+        font-size: 20px;
+        grid-column-start: 3;
+        grid-row-start: 3;
+        align-self: center;
+    }
+
+
+
+
+
+}
