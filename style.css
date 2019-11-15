@@ -9,14 +9,13 @@ body {
 }
 
 p {
-    font-family: "Avenir";
+    font-family: 'Nunito', sans-serif;
     font-size: 20px;
 }
 
 a {
     color: white;
-    /*    padding: 14px 25px;*/
-    font-family: "Avenir";
+    font-family: 'Nunito', sans-serif;
     text-decoration: none;
 }
 
@@ -43,7 +42,7 @@ a:hover {
 }
 
 h1 {
-    font-family: "Avenir";
+    font-family: 'Nunito', sans-serif;
     font-size: 25px;
 }
 
@@ -60,7 +59,7 @@ h1 {
 button {
     border-radius: 25px;
     font-size: 20px;
-    font-family: "Avenir";
+    font-family: 'Nunito', sans-serif;
     cursor: pointer;
     font-weight: bold;
     height: 50px;
@@ -84,7 +83,6 @@ button {
     font-size: 35px;
 }
 
-
 .subPageArt {
     padding-top: 80px;
     padding-right: 100px;
@@ -100,24 +98,19 @@ button {
     grid-column-end: 7;
 }
 
-
-
-
 input[type=search] {
     border: 2px solid white;
     background-color: black;
     width: 165px;
     height: 40px;
-
 }
 
 input[type=submit] {
     color: white;
     background-color: black;
     font-size: 19px;
-    font-family: "Avenir";
+    font-family: 'Nunito', sans-serif;
     border: none;
-
 }
 
 .icon1 {
@@ -137,7 +130,6 @@ input[type=submit] {
     align-self: center;
 }
 
-
 .icons {
     grid-column-start: 3;
     grid-column-end: 6;
@@ -145,7 +137,6 @@ input[type=submit] {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     place-self: center;
-    /*   align-self: center;*/
     grid-column-gap: 25px;
     justify-self: end;
 }
@@ -164,7 +155,7 @@ input[type=submit] {
     align-self: center;
     font-weight: bold;
     font-size: 25px;
-    font-family: "Avenir";
+    font-family: 'Nunito', sans-serif;
     justify-self: center;
     text-align: center;
 }
@@ -178,16 +169,6 @@ input[type=submit] {
     width: 600px;
     height: auto;
 }
-
-
-/*
-
-
--------- GRIDS --------
-
-
-*/
-
 
 .wrapper {
     display: grid;
@@ -220,14 +201,13 @@ input[type=submit] {
     grid-template-columns: 1fr 1fr 1fr;
     font-weight: bold;
     font-size: 19px;
-    font-family: "Avenir";
+    font-family: 'Nunito', sans-serif;
 }
 
 .container3 {
     display: grid;
     grid-template-columns: 10px 80px auto 80px 20px;
     grid-template-rows: 25px 185px 525px 104px;
-    ;
 }
 
 .container4 {
@@ -259,34 +239,16 @@ input[type=submit] {
     grid-row-start: 5;
 }
 
-
-
-
 #posts {
     display: grid;
-    /*    justify-items: center;*/
     grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
-    /*    justify-content: center;*/
-
     grid-gap: 50px 5px;
-
-
-
-
     padding-top: 20px;
-    /*    padding-right: 120px;*/
     padding-bottom: 10px;
     padding-left: 120px;
-
-
-
-
 }
 
-
-
 @media all and (max-width: 500px) and (min-width: 300px) {
-
     .whitebox .elem5 .container4 .icons {
         display: none;
     }
@@ -381,7 +343,6 @@ input[type=submit] {
         grid-row-start: 3;
         align-self: center;
         justify-self: center;
-
     }
 
     .wrapperElem1 {
@@ -389,7 +350,7 @@ input[type=submit] {
         justify-self: center;
     }
 
-    .subPageArt{
+    .subPageArt {
         padding: 10px;
     }
 
@@ -403,7 +364,7 @@ input[type=submit] {
 
 @media all and (max-width: 1200px) and (min-width: 499px) {
 
-     nav {
+    nav {
         padding: 0;
         margin: 0;
         font-size: 20px;
@@ -411,9 +372,5 @@ input[type=submit] {
         grid-row-start: 3;
         align-self: center;
     }
-
-
-
-
 
 }
